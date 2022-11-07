@@ -1,6 +1,6 @@
 /*가운데 VALUE 글씨 디자인*/
 .sdms-font{
-    font-family: 'SDMiSaeng', sans-serif;
+    font-family: 'JejuGothic', sans-serif;
     color:blueviolet;
     font-size: 80px;
     text-align: center;
@@ -12,18 +12,49 @@
 /*인트로 텍스트 디자인*/
 .intro {
     text-align: center;
-    font-family: 'SDMiSaeng', sans-serif;
+    font-family: 'JejuGothic', sans-serif;
 }
 
-/*SHOW YOUR LIFE, VALUE 디자인*/
+/*Show Your Life 디자인*/
 mark.gray {
     font-size: 70px;
     color: gray;
     background: none;
 }
 
+/*Value 디자인*/
 mark.blueviolet {
     font-size: 90px;
     color:blueviolet;
     background: none;
+}
+
+mark.black {
+    font-size: 50px;
+    color:black;
+    background: none;
+}
+
+/*메인 페이지의 Value1 디자인*/
+mark.blueviolet1 {
+    font-size:50px;
+    color:blueviolet;
+    background:none;
+}
+
+/*메인 페이지의 Value2 디자인*/
+mark.blueviolet2 {
+    font-size: 30px;
+    color:blueviolet;
+    background: none;
+}
+
+.sub_explanation > p {
+    font-size: 30px;
+    color:black;
+}
+
+.sub_explanation > a {
+    color: blueviolet;
+    font-size: 30px;
 }
