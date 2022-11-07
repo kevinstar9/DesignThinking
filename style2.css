@@ -16,15 +16,14 @@
 }
 
 /*SHOW YOUR LIFE, VALUE 디자인*/
-.subtitle {
+mark.gray {
     font-size: 70px;
     color: gray;
+    background: none;
 }
 
-/*VALUE 디자인*/
-.title {
-    height: 0px;
+mark.blueviolet {
     font-size: 90px;
-    color: blueviolet;
-    position: relative;
+    color:blueviolet;
+    background: none;
 }
