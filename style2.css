@@ -1,0 +1,29 @@
+/*가운데 VALUE 글씨 디자인*/
+.sdms-font{
+    font-family: 'SDMiSaeng', sans-serif;
+    color:blueviolet;
+    font-size: 80px;
+    text-align: center;
+}
+
+.sdms-font > a {
+    text-decoration: none;
+}
+/*인트로 텍스트 디자인*/
+.intro {
+    text-align: center;
+    font-family: 'SDMiSaeng', sans-serif;
+}
+
+/*SHOW YOUR LIFE 디자인*/
+.intro > h1{
+    font-size: 70px;
+    color: gray;
+}
+
+/*VALUE 디자인*/
+.intro > h4{
+    font-size: 90px;
+    color: blueviolet;
+    position: relative;
+}

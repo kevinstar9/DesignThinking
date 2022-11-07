@@ -9,7 +9,7 @@
 }
 
 .intro_bg{
-    background-image:url("DesignThinking_Concept_Image/Logo.png");
+    background-image:url("DesignThinking_Concept_Image/LogoImage.png");
     width: 960px;
     height: 540px;
     background-repeat: no-repeat;
@@ -17,6 +17,7 @@
 }
 
 .header{
+    margin: auto;
     display: flex;
     width: 1300px;
     background: rgba(153, 102, 255, 0.5);
@@ -47,6 +48,10 @@
     cursor: pointer;
 }
 
+h1 {
+    font-size: 48px;
+}
+
 .nav{
     display: flex;
     justify-content: flex-end;
@@ -59,5 +64,15 @@
 }
 
 .nav > li > a {
+    color:#fff;
+}
+.intro_text{
+    width: 100%;
+    margin: 231px auto 231px auto;
+    text-align: center;
+}
+
+.intro_text > h1,
+.intro_text > h4 {
     color:#fff;
 }
