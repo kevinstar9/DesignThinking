@@ -37,9 +37,10 @@ mark.black {
 
 /*메인 페이지의 Value1 디자인*/
 mark.blueviolet1 {
+    width: 150px;
     font-size:50px;
     color:blueviolet;
-    background:none;
+    background:red; /*none */
 }
 
 /*메인 페이지의 Value2 디자인*/
@@ -59,4 +60,18 @@ mark.blueviolet2 {
 .sub_explanation > a {
     color: blueviolet;
     font-size: 30px;
+}
+
+.value_question > p {
+    /*float: right;*/
+    font-size: 50px;
+    color: blueviolet;
+}
+
+.today_question > a {
+    text-decoration: none;
+    float: right;
+    font-size: 40px;
+    color: #fff;
+    background: blueviolet;
 }
