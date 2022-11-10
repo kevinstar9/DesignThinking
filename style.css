@@ -37,10 +37,11 @@ mark.black {
 
 /*메인 페이지의 Value1 디자인*/
 mark.blueviolet1 {
+    background: none;
     width: 150px;
     font-size:50px;
     color:blueviolet;
-    background:red; /*none */
+    /* background:red; */
 }
 
 /*메인 페이지의 Value2 디자인*/
@@ -48,6 +49,13 @@ mark.blueviolet2 {
     font-size: 30px;
     color:blueviolet;
     background: none;
+}
+
+/*메인 페이지의 sub_explanation(Value는 질문을 던져~) 텍스트 디자인 */
+mark.black1 {
+    background: none;
+    font-size: 30px;
+    color:black;
 }
 
 /* 서브 설명 텍스트 디자인 */
@@ -62,12 +70,15 @@ mark.blueviolet2 {
     font-size: 30px;
 }
 
+/* 당신의 하루를 알려주세요 */
 .value_question > p {
-    /*float: right;*/
+    text-decoration: none;
+    float: right;
     font-size: 50px;
     color: blueviolet;
 }
 
+/*오늘의 Value 질문*/
 .today_question > a {
     text-decoration: none;
     float: right;
