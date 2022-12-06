@@ -1,5 +1,5 @@
 body {
-    background-color: rgb(167, 82, 167);
+    background-color: rgba(200, 157, 229, 0.694);
 }
 
 #jumbotron {
@@ -9,21 +9,18 @@ body {
     fill-opacity: 70%;
 }
 
-.display-4 {
-    font-size: 40px;
-    color: gray;
-}
-
-.display-5 {
-    color:blueviolet;
-    font-size: 90px;
-    text-decoration-thickness: 10px;
-}
-
 #card-deck {
     margin-top: 30px;
+    text-align: center;
 }
 
 #container {
     margin-top: 30px;
 }
+
+#how-to-use-value {
+    color: #fff;
+    text-decoration: none;
+}
+
+

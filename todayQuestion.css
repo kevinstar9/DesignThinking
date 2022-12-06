@@ -1,0 +1,10 @@
+body {
+    background-color: rgba(200, 157, 229, 0.694);
+}
+
+#LetMeKnowYourToday {
+    margin-top: 30px;
+    text-align: center;
+    color: white;
+    font-size: 30px;
+}
