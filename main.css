@@ -1,0 +1,29 @@
+body {
+    background-color: rgb(167, 82, 167);
+}
+
+#jumbotron {
+    text-align: center;
+    /* font-family: 'Jua', sans-serif; */
+    margin-top: 30px;
+    fill-opacity: 70%;
+}
+
+.display-4 {
+    font-size: 40px;
+    color: gray;
+}
+
+.display-5 {
+    color:blueviolet;
+    font-size: 90px;
+    text-decoration-thickness: 10px;
+}
+
+#card-deck {
+    margin-top: 30px;
+}
+
+#container {
+    margin-top: 30px;
+}
