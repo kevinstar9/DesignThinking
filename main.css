@@ -23,4 +23,27 @@ body {
     text-decoration: none;
 }
 
+#card {
+    align-self: center;    
+}
 
+#card-title {
+    font-size: 18px;
+    text-align: center;
+}
+
+#todayQuestion {
+    font-size: 15px;
+    color: blue;
+    text-decoration: none;
+    text-align: center;
+}
+
+#card-text0 {
+    text-align: center;
+}
+
+#card-text1 {
+    text-align: center;
+    margin-top: auto;
+}
