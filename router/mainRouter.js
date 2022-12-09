@@ -3,11 +3,11 @@ const express = require('express')
 const router = express.Router();
 
 router.get("/", function(req,res) {
-    res.render('index', {title:"EJS 메인페이지"}) //그림 파일 전달
+    res.render('main') //그림 파일 전달
 })
 
-router.get("/about", function(req,res){
-    res.send('About page') 
+router.get("/todayquestion", function(req,res){
+    res.render('todayQuestion') 
 })
 
 router.post("/postapi", function(req,res){
