@@ -7,3 +7,16 @@ body {
     text-align: center;
     color: black;
 }
+
+#text-main {
+    color: rgba(200, 157, 229, 0.694);
+}
+
+#text1 {
+    text-align: center;
+}
+
+#image {
+    width: auto;
+    height: auto;
+}
